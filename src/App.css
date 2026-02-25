@@ -1,0 +1,74 @@
+body {
+  background-image: url("num.gif");
+  background-repeat: repeat;
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  margin: -30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Registration-header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 20px;
+}
+
+label {
+  color: white;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-box {
+  padding: 10px;
+  width: 300px;
+}
+
+.submit-button {
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  height: 40px;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
